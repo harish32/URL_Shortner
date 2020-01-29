@@ -1,0 +1,19 @@
+{
+  "name": "bookmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harish32/URL_Shortner.git"
+  },
+  "author": "harish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harish32/URL_Shortner/issues"
+  },
+  "homepage": "https://github.com/harish32/URL_Shortner#readme"
+}
