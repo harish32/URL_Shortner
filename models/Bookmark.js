@@ -1,4 +1,5 @@
 const mongoose = require("mongoose")
+const sh = require("shorthash");
 
 const bookmarkSchema = mongoose.Schema({
     title:{
@@ -18,7 +19,9 @@ const bookmarkSchema = mongoose.Schema({
 })
 
 bookmarkSchema.pre("save",function(){
-    
+    this.hashedUrl = sh.unique(this.originalUrl)
 })
 
 const Bookmark = mongoose.model("Bookmark",bookmarkSchema)
+
+module.exports = Bookmark
