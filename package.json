@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/harish32/URL_Shortner/issues"
   },
-  "homepage": "https://github.com/harish32/URL_Shortner#readme"
+  "homepage": "https://github.com/harish32/URL_Shortner#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.10",
+    "nodemon": "^2.0.2",
+    "shorthash": "0.0.2",
+    "validator": "^12.2.0"
+  }
 }
